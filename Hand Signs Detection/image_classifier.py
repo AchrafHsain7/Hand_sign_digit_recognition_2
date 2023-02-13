@@ -3,7 +3,7 @@ import tensorflow as tf
 from tensorflow import keras
 import matplotlib.pyplot as plt
 from PIL import Image
-from ConvNet import load_dataset
+from helpers import load_dataset
 
 
 model = keras.models.load_model('model.tf')
